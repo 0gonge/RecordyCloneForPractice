@@ -56,8 +56,8 @@
 		5CD09C862C9070DD003078A7 /* RecordyClone */ = {
 			isa = PBXGroup;
 			children = (
-				5CD09C872C9070DD003078A7 /* AppDelegate.swift */,
-				5CD09C892C9070DD003078A7 /* SceneDelegate.swift */,
+				5CD09C9C2C9A1773003078A7 /* Global */,
+				5CD09C9B2C9A175C003078A7 /* Application */,
 				5CD09C8B2C9070DD003078A7 /* ViewController.swift */,
 				5CD09C8D2C9070DD003078A7 /* Main.storyboard */,
 				5CD09C902C9070DF003078A7 /* Assets.xcassets */,
@@ -65,6 +65,30 @@
 				5CD09C952C9070DF003078A7 /* Info.plist */,
 			);
 			path = RecordyClone;
+			sourceTree = "<group>";
+		};
+		5CD09C9B2C9A175C003078A7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5CD09C872C9070DD003078A7 /* AppDelegate.swift */,
+				5CD09C892C9070DD003078A7 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5CD09C9C2C9A1773003078A7 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				5CD09C9D2C9A1797003078A7 /* Font */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		5CD09C9D2C9A1797003078A7 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
