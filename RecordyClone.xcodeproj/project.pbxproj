@@ -13,6 +13,15 @@
 		5CD09C8F2C9070DD003078A7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5CD09C8E2C9070DD003078A7 /* Base */; };
 		5CD09C912C9070DF003078A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CD09C902C9070DF003078A7 /* Assets.xcassets */; };
 		5CD09C942C9070DF003078A7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5CD09C932C9070DF003078A7 /* Base */; };
+		5CD09CA82C9A1B87003078A7 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD09C9F2C9A1B87003078A7 /* Pretendard-Thin.otf */; };
+		5CD09CA92C9A1B87003078A7 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD09CA02C9A1B87003078A7 /* Pretendard-ExtraLight.otf */; };
+		5CD09CAA2C9A1B87003078A7 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD09CA12C9A1B87003078A7 /* Pretendard-Regular.otf */; };
+		5CD09CAB2C9A1B87003078A7 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD09CA22C9A1B87003078A7 /* Pretendard-Light.otf */; };
+		5CD09CAC2C9A1B87003078A7 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD09CA32C9A1B87003078A7 /* Pretendard-SemiBold.otf */; };
+		5CD09CAD2C9A1B87003078A7 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD09CA42C9A1B87003078A7 /* Pretendard-Bold.otf */; };
+		5CD09CAE2C9A1B87003078A7 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD09CA52C9A1B87003078A7 /* Pretendard-Medium.otf */; };
+		5CD09CAF2C9A1B87003078A7 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD09CA62C9A1B87003078A7 /* Pretendard-Black.otf */; };
+		5CD09CB02C9A1B87003078A7 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD09CA72C9A1B87003078A7 /* Pretendard-ExtraBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		5CD09C902C9070DF003078A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CD09C932C9070DF003078A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CD09C952C9070DF003078A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CD09C9F2C9A1B87003078A7 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		5CD09CA02C9A1B87003078A7 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		5CD09CA12C9A1B87003078A7 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		5CD09CA22C9A1B87003078A7 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		5CD09CA32C9A1B87003078A7 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		5CD09CA42C9A1B87003078A7 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		5CD09CA52C9A1B87003078A7 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		5CD09CA62C9A1B87003078A7 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		5CD09CA72C9A1B87003078A7 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +97,7 @@
 		5CD09C9C2C9A1773003078A7 /* Global */ = {
 			isa = PBXGroup;
 			children = (
-				5CD09C9D2C9A1797003078A7 /* Font */,
+				5CD09C9E2C9A1933003078A7 /* Resources */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -87,8 +105,25 @@
 		5CD09C9D2C9A1797003078A7 /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				5CD09CA62C9A1B87003078A7 /* Pretendard-Black.otf */,
+				5CD09CA42C9A1B87003078A7 /* Pretendard-Bold.otf */,
+				5CD09CA72C9A1B87003078A7 /* Pretendard-ExtraBold.otf */,
+				5CD09CA02C9A1B87003078A7 /* Pretendard-ExtraLight.otf */,
+				5CD09CA22C9A1B87003078A7 /* Pretendard-Light.otf */,
+				5CD09CA52C9A1B87003078A7 /* Pretendard-Medium.otf */,
+				5CD09CA12C9A1B87003078A7 /* Pretendard-Regular.otf */,
+				5CD09CA32C9A1B87003078A7 /* Pretendard-SemiBold.otf */,
+				5CD09C9F2C9A1B87003078A7 /* Pretendard-Thin.otf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		5CD09C9E2C9A1933003078A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5CD09C9D2C9A1797003078A7 /* Font */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +185,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CD09C912C9070DF003078A7 /* Assets.xcassets in Resources */,
+				5CD09CAE2C9A1B87003078A7 /* Pretendard-Medium.otf in Resources */,
+				5CD09CB02C9A1B87003078A7 /* Pretendard-ExtraBold.otf in Resources */,
+				5CD09CAA2C9A1B87003078A7 /* Pretendard-Regular.otf in Resources */,
 				5CD09C942C9070DF003078A7 /* Base in Resources */,
+				5CD09CAC2C9A1B87003078A7 /* Pretendard-SemiBold.otf in Resources */,
+				5CD09CA92C9A1B87003078A7 /* Pretendard-ExtraLight.otf in Resources */,
+				5CD09CAF2C9A1B87003078A7 /* Pretendard-Black.otf in Resources */,
+				5CD09CAB2C9A1B87003078A7 /* Pretendard-Light.otf in Resources */,
 				5CD09C8F2C9070DD003078A7 /* Base in Resources */,
+				5CD09CAD2C9A1B87003078A7 /* Pretendard-Bold.otf in Resources */,
+				5CD09CA82C9A1B87003078A7 /* Pretendard-Thin.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
