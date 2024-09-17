@@ -22,6 +22,7 @@
 		5CD09CAE2C9A1B87003078A7 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD09CA52C9A1B87003078A7 /* Pretendard-Medium.otf */; };
 		5CD09CAF2C9A1B87003078A7 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD09CA62C9A1B87003078A7 /* Pretendard-Black.otf */; };
 		5CD09CB02C9A1B87003078A7 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD09CA72C9A1B87003078A7 /* Pretendard-ExtraBold.otf */; };
+		5CD09CB22C9A2079003078A7 /* PretendardFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD09CB12C9A2079003078A7 /* PretendardFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		5CD09CA52C9A1B87003078A7 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
 		5CD09CA62C9A1B87003078A7 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
 		5CD09CA72C9A1B87003078A7 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		5CD09CB12C9A2079003078A7 /* PretendardFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendardFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +104,7 @@
 			path = Global;
 			sourceTree = "<group>";
 		};
-		5CD09C9D2C9A1797003078A7 /* Font */ = {
+		5CD09C9D2C9A1797003078A7 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
 				5CD09CA62C9A1B87003078A7 /* Pretendard-Black.otf */,
@@ -114,14 +116,15 @@
 				5CD09CA12C9A1B87003078A7 /* Pretendard-Regular.otf */,
 				5CD09CA32C9A1B87003078A7 /* Pretendard-SemiBold.otf */,
 				5CD09C9F2C9A1B87003078A7 /* Pretendard-Thin.otf */,
+				5CD09CB12C9A2079003078A7 /* PretendardFont.swift */,
 			);
-			path = Font;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		5CD09C9E2C9A1933003078A7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5CD09C9D2C9A1797003078A7 /* Font */,
+				5CD09C9D2C9A1797003078A7 /* Fonts */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CD09CB22C9A2079003078A7 /* PretendardFont.swift in Sources */,
 				5CD09C8C2C9070DD003078A7 /* ViewController.swift in Sources */,
 				5CD09C882C9070DD003078A7 /* AppDelegate.swift in Sources */,
 				5CD09C8A2C9070DD003078A7 /* SceneDelegate.swift in Sources */,
